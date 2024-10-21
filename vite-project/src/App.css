@@ -1,0 +1,73 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./images/backgroundImage.jpg");
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outerContainer {
+  background-color: rgba(250, 235, 215, 0.719);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  justify-content: center;
+  width: 500px;
+  height: 85%;
+  max-width: 510px;
+  min-width: 230px;
+  border-radius: 15px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.header {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headerText {
+  /* background-color: aqua; */
+  color: rgba(206, 118, 4, 0.856);
+  font-size: 38px;
+}
+.inputArea {
+  /* background-color: rgb(136, 127, 255); */
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  width: 37vw;
+  min-width: 25vw;
+}
+
+.renderingArea {
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  min-width: 22vw;
+}
+.renderedElement {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 97%;
+  min-width: 20vw;
+}
