@@ -1,0 +1,84 @@
+.dropdown Button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  font-size: 25px;
+  /* color: rgb(143, 81, 5); */
+  color: blanchedalmond;
+  margin-right: 5px;
+}
+.dropdown Button:hover {
+  cursor: pointer;
+  border: transparent;
+  box-shadow: 0.5px 0.5px;
+  font-size: 27px;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: rgb(141, 87, 17);
+  box-shadow: 0.5px 0.5px;
+  width: 165px;
+  min-width: 100px;
+  height: auto;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  border-radius: 5%;
+  text-align: center;
+}
+.dropdown-content:hover {
+  width: 175px;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  color: black;
+  font-family: cursive;
+}
+
+.dropdown-content a:hover {
+  font-size: 18px;
+  border-radius: 5%;
+  width: 40px;
+  box-shadow: 1px 1px;
+}
+
+.priorityListTrigger {
+  color: rgb(104, 103, 103);
+}
+.priorityListTrigger:hover {
+  font-size: 22px;
+}
+
+.priorityList {
+  background-color: rgba(161, 97, 14, 0.507);
+  box-shadow: 1px 1px;
+  width: 100px;
+  height: auto;
+  padding: 5px;
+  position: absolute;
+}
+.priorityList:hover {
+  width: 110px;
+}
+.priorityList:o
+
+.priorityList a:hover{
+  border-radius: 15%;
+  box-shadow: 1px 1px;
+}
+
+.priorityList .nonPriority {
+  color: rgb(10, 10, 10);
+}
+
+.priorityList .highPriority {
+  color: rgba(177, 5, 5, 0.836);
+}
+.priorityList .mediumPriority {
+  color: rgb(214, 202, 32);
+}
+.priorityList .lowPriority {
+  color: rgba(6, 87, 6, 0.772);
+}

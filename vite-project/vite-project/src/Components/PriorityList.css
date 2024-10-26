@@ -1,0 +1,37 @@
+
+.priorityListTrigger:hover {
+  font-size: 20px;
+}
+
+
+.priorityList {
+  background-color: rgba(194, 135, 57, 0.993);
+  box-shadow: 0.5px 0.5px;
+  width: 70px;
+  height: auto;
+  padding: 5px;
+  /* border-radius: 20%; */
+  position: absolute;
+}
+.priorityList a {
+  text-decoration: none;
+}
+.priorityList a:hover {
+  font-size: 18px;
+  border-radius: 20%;
+  box-shadow: 1px 1px;
+}
+
+.nonPriority {
+  color: rgb(10, 10, 10);
+}
+
+.highPriority {
+  color: rgba(177, 5, 5, 0.836);
+}
+.mediumPriority {
+  color: rgb(214, 202, 32);
+}
+.lowPriority {
+  color: rgba(6, 87, 6, 0.772);
+}

@@ -1,0 +1,42 @@
+.deletingMessageConfirmation {
+  background-color: rgba(194, 107, 57, 0.993);
+  box-shadow: 0.5px 0.5px;
+  width: 250px;
+  height: auto;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 5%;
+  position: absolute;
+}
+
+.deletingMessageConfirmation p:hover {
+  font-size: 16px;
+}
+
+.deletingMessageConfirmation Button {
+  margin: 1rem;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+
+.deletingMessageConfirmation Button:hover {
+  cursor: pointer;
+}
+
+.deleteMessageButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.deleteButton Button {
+  color: rgb(204, 7, 7);
+}
+
+.deleteButton Button:hover {
+  font-size: 22px;
+}
+
+.cancelDelete Button:hover {
+  font-size: 22px;
+}

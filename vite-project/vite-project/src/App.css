@@ -1,0 +1,83 @@
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("./images/backgroundImage.jpg");
+  /* background-repeat: no-repeat; */
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.outerContainer {
+  background-color: rgba(20, 13, 4, 0.84);
+  align-items: center;
+  justify-content: center;
+  height: 85%;
+  max-width: 550px;
+  min-width: 370px;
+  border-radius: 45px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  position: relative;
+}
+.header {
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headerText {
+  font-size: 75px;
+  font-weight: bold;
+  background-image: url("./images/textBackground5.jpg");
+  background-size: cover;
+  background-clip: text; /* Clips the background to the text */
+  -webkit-background-clip: text; /* For better cross-browser support */
+  color: transparent;
+}
+
+.inputArea {
+  /* background-color: rgb(136, 127, 255); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5px;
+  width: 23vw;
+  gap: 0.1rem;
+  margin-right: 0.7vw;
+  margin-left: 0.7vw;
+}
+
+/* .renderingArea {
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45vw;
+  min-width: 30vw;
+  height: 570px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 10px;
+} */
+/* .renderedElement {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 34vw;
+  min-width: 30vw;
+} */

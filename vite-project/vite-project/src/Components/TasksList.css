@@ -1,0 +1,261 @@
+.allTasksHeader {
+  font-size: 24px;
+  color: rgb(228, 219, 205);
+  margin-top: 5%;
+  margin-bottom: 2%;
+  letter-spacing: 0.2em;
+}
+
+.taskPriorityText {
+  color: rgb(0, 0, 0);
+}
+
+.allListsContainer {
+  /* background-color: blue; */
+  min-width: 23vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.singleTaskLine-container Button {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.singleTaskLine-container {
+  background-color: rgba(158, 127, 87, 0.861);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 1px 1px;
+
+  width: 65%;
+  min-width: 247px;
+  /* display: flex;*/
+  align-content: center;
+  justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  /* gap: 1rem; */
+  margin: 5px;
+  height: 30px;
+  overflow: scroll;
+  scrollbar-width: none;
+  /* mix-blend-mode:; */
+}
+.singleTaskLine-container:hover {
+  font-size: 19px;
+  width: 70%;
+  height: 33px;
+}
+
+input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  background-color: rgb(136, 135, 135);
+  border-radius: 50%;
+  vertical-align: middle;
+
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+input[type="checkbox"]:checked {
+  background-color: rgba(5, 119, 51, 0.484);
+  border: 2px solid #0d0b0b;
+}
+input[type="checkbox"]:hover {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.taskText {
+  text-align: center;
+  width: 100px;
+  max-width: 100px;
+  min-width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: cursive;
+  color: rgb(228, 219, 205);
+  /* mix-blend-mode:hard-light; */
+}
+
+.noTasksText p {
+  font-size: 24px;
+  color: rgb(228, 219, 205);
+  margin-top: 50%;
+}
+
+.trashButton Button {
+  color: rgb(196, 26, 26);
+}
+.trashButton Button:hover {
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  background-color: none;
+}
+
+.deleteListContainer {
+  /* background-color: aqua; */
+  min-width: 23vw;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.deleteAllDeletedTask Button {
+  color: rgb(228, 219, 205);
+  background-color: rgba(0, 0, 0, 0.562);
+  border: 5px solid black;
+  box-shadow: 0px 0px;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+}
+.deleteAllDeletedTask Button:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+.deletedList {
+  background-color: rgba(158, 127, 87, 0.861);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 1px 1px;
+
+  width: 65%;
+  min-width: 247px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+  /* grid-template-columns: repeat(3, 2fr); */
+  margin: 5px;
+  height: 30px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.trashNameText {
+  width: 5rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.deletedList:hover {
+  font-size: 19px;
+  width: 75%;
+  height: 33px;
+}
+
+.deletedList button {
+  font-size: 18px;
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+}
+
+.deletedList button:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.restoreButton button {
+  color: rgba(118, 182, 21, 0.733);
+}
+
+.vanishButton button {
+  color: rgb(204, 69, 7);
+}
+
+.editButton Button {
+  color: rgb(21, 14, 1);
+}
+.editButton Button:hover {
+  cursor: pointer;
+  font-size: 20px;
+}
+.editingBar {
+  background-color: rgba(240, 139, 6, 0.438);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 25px;
+  box-shadow: 1px 1px;
+
+  width: 85%;
+  min-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin: 5px;
+  padding: 8px;
+  height: 30px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.editingBar:hover {
+  font-size: 19px;
+  width: 90%;
+  height: 33px;
+}
+
+.editingBarInputField {
+  background-color: rgba(250, 235, 215, 0.514);
+  border: none;
+  box-shadow: 0.5px 0.5px;
+  border-radius: 25px;
+  padding: 2px;
+  width: 75%;
+  height: 2.5vh;
+  text-align: center;
+  font-size: 16px;
+  font-family: cursive;
+}
+.editingBarInputField:hover {
+  border: 1px solid rgb(131, 82, 22);
+  box-shadow: 0.5px 0.5px;
+  height: 2.6vh;
+}
+
+.editingBarInputField:focus {
+  border: 1px solid rgb(131, 82, 22);
+  outline: none;
+}
+
+.editingBar button {
+  background-color: transparent;
+
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.editingBar button:hover {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.saveEditButton button {
+  color: rgba(32, 170, 32, 0.699);
+}
+
+.cancelEditButton button {
+  color: rgb(204, 69, 7);
+}
+
+.bottomText {
+  font-size: 24px;
+  color: rgb(228, 219, 205);
+  margin-top: 100%;
+}
+
+.deletingMessageConfirmation {
+  font-family: cursive;
+}
